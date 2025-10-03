@@ -1,0 +1,31 @@
+# Ignore Python cache and system files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Jupyter/Colab checkpoints
+*.ipynb_checkpoints
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore shapefile extras (keep only .shp if needed)
+*.dbf
+*.shx
+*.prj
+*.qpj
+
+# Ignore zip and temporary archives
+*.zip
+*.tar
+*.gz
+*.rar
+
+# Ignore editor/IDE settings
+.vscode/
+.idea/
+
+# Ignore environment files
+.env
+.venv
